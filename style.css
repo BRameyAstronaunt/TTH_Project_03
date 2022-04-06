@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+
+
+
+.container {
+	display: block;
+	margin: 0 auto;
+	width: 800px;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+	color: #2d3945;
+}
+
+.header {
+	background-color: #2d3945;
+	max-width: 100%;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	
+}
+
+.intro {
+	display: block;
+	text-align: center;
+	line-height: 15px;
+	margin-top: 50px;
+}
+
+.border01 {
+	width: 900px;
+	border-top: 4px solid #2d3945;
+	border-bottom: 2px solid #2d3945;
+	padding: 1.5px;
+	
+}
+
+.border02 {
+	width: 100%;
+	border: 1px solid #2d3945;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+input[type=text],
+input[type=select] {
+	width: 95%;
+	display: block;
+	background-color: #eff0f1;
+	border: none;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	align-content: flex-end;
+}
+
+input[id=zip]  {
+	width: 25%;
+	display: block;
+	background-color: #eff0f1;
+	border: none;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+select {
+	display: block;
+	width: 95%;
+	background-color: #eff0f1;
+	border: none;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.section02 {
+	max-width: 100%;
+	
+}
+
+textarea {
+	display: block;
+	width: 95%;
+	padding: 50px;
+	background-color: #eff0f1;
+	border: none;
+	border-radius: 10px;
+}
+
+input[type=radio]:checked + label {
+	margin-left: -100px;
+	
+}
+
+input[type=submit] {
+	display: block;
+	background-color: #4ebbb5;
+	color: white;
+	width: 95%;
+	border-radius: 10px;
+	padding: 20px;
+	border: none;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+font-size: .75em;
+}
+
+
+
+
+
+
+
+
